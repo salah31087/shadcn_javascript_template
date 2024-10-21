@@ -14,9 +14,9 @@ import {
   SidebarTrigger,
 } from "@/components/ui/sidebar"
 
-export default function Page() {
+export default function Admin() {
   return (
-    (<SidebarProvider>
+    <SidebarProvider>
       <AppSidebar />
       <SidebarInset>
         <header
@@ -48,6 +48,6 @@ export default function Page() {
           <div className="min-h-[100vh] flex-1 rounded-xl bg-muted/50 md:min-h-min" />
         </div>
       </SidebarInset>
-    </SidebarProvider>)
+    </SidebarProvider>
   );
 }

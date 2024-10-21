@@ -1,10 +1,8 @@
 import React from 'react'
-import DashboardHeader from './components/custom/dashboard-header'
+import Admin from './app/admin'
 
 export default function App() {
   return (
-    <div className='w-full'>
-      <DashboardHeader></DashboardHeader>
-    </div>
+    <Admin></Admin>
   )
 }
