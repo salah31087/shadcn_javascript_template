@@ -4,9 +4,9 @@ import {
   SidebarInset,
   SidebarProvider
 } from "@/components/ui/sidebar"
-import Stats from "./admin-pages/dashboard";
 import { Route, Routes } from "react-router-dom";
 import Header from "./admin-pages/components/dashboard-components/header";
+import Dashboard from "./admin-pages/dashboard";
 
 
 
@@ -17,7 +17,7 @@ export default function Admin() {
       <SidebarInset>
         <Header />
         <Routes>
-          <Route path="/" element={<Stats />}></Route>
+          <Route path="/" element={<Dashboard />}></Route>
         </Routes>
       </SidebarInset>
     </SidebarProvider>
